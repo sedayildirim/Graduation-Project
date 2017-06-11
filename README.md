@@ -29,3 +29,18 @@ Batch size is set to 16. Can be changed from the variable *batch_size*.
 *train_set* and *test_set* values need to be changed according to the dataset size. 
 - *train_set*: size of the training set
 - *test_set*: size of the testing set
+
+**Before running**  
+The training and testing set should be in the same directory as the network and should have the following paths:  
+*training set* :
+ ```bash
+data/train/
+```  
+
+*testing set* : 
+ ```bash
+data/test/
+```  
+
+The image sets should be in folders 0,1, or 2 depending on the category.
+  
